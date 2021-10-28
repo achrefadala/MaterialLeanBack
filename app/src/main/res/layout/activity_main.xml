@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.achref.leanbackrecycler.MaterialLeanBack
+        android:id="@+id/materialLeanBack"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:mlb_background="@color/white"
+        app:mlb_lineSpacing="30dp"
+        app:mlb_paddingBottom="30dp"
+        app:mlb_paddingLeft="30dp"
+        app:mlb_paddingRight="30dp"
+        app:mlb_paddingTop="40dp"
+        app:mlb_titleColor="@android:color/white" />
+
+</RelativeLayout>
+

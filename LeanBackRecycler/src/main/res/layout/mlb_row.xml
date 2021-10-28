@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/row_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/mlb_lineSpacingTop">
+
+    <TextView
+        android:id="@+id/row_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:text="Apps"
+        android:textColor="#333" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/row_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:layout_marginBottom="@dimen/mlb_lineSpacingBottom"
+        android:clipChildren="false"
+        android:clipToPadding="false" />
+
+</LinearLayout>
