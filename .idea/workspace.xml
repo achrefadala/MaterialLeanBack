@@ -5,27 +5,34 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81d5a7e9-098f-48d3-b17c-fb49482cd528" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/LeanBackRecycler/src/androidTest/java/com/achref/leanbackrecycler/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeanBackRecycler/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LeanBackRecycler/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeanBackRecycler/src/main/java/com/achref/leanbackrecycler/MaterialLeanBack.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeanBackRecycler/src/main/java/com/achref/leanbackrecycler/MaterialLeanBackSettings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeanBackRecycler/src/main/java/com/achref/leanbackrecycler/OnItemClickListenerWrapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeanBackRecycler/src/main/java/com/achref/leanbackrecycler/PlaceHolderViewHolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeanBackRecycler/src/main/java/com/achref/leanbackrecycler/cell/CellAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeanBackRecycler/src/main/java/com/achref/leanbackrecycler/cell/CellViewHolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeanBackRecycler/src/main/java/com/achref/leanbackrecycler/line/LineAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeanBackRecycler/src/main/java/com/achref/leanbackrecycler/line/LineViewHolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeanBackRecycler/src/main/res/layout/mlb_row.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LeanBackRecycler/src/main/res/layout/mlb_row.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeanBackRecycler/src/test/java/com/achref/leanbackrecycler/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/achref/tabapp/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/achref/tabapp/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/achref/tabapp/TestViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/achref/tabapp/TestViewHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/github.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_3_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_services_storage_1_4_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/LeanBackRecycler/TabApp.LeanBackRecycler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/LeanBackRecycler/TabApp.LeanBackRecycler.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/TabApp.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/TabApp.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeanBackRecycler/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/LeanBackRecycler/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +51,30 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TabApp" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TabApp" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TabApp" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>
@@ -3141,6 +3171,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHOW_ALL_PROCESSES" value="false" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
+    <property name="android-custom-view/home/aadala/Téléchargements/MaterialLeanBack/LeanBackRecycler/src/main/java/com/achref/leanbacklib/MaterialLeanBack.java_SELECTED" value="MaterialLeanBack" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
     <property name="device.picker.selection" value="CVH7N15B04005266" />
@@ -3148,7 +3179,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
+    <property name="settings.editor.selected.configurable" value="experimental" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -3156,7 +3187,13 @@
       <recent name="$PROJECT_DIR$/gradle" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.app">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle publish" />
+      <command value="gradle publish --release" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Gradle.MaterialLeanBack [publish]">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -3363,6 +3400,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaterialLeanBack [publish --release]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="publish" />
+            <option value="--release" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MaterialLeanBack [publish]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--stacktrace" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="publish" />
+          </list>
+        </option>
+        <option name="vmOptions" value="" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -3383,7 +3463,15 @@
     <list>
       <item itemvalue="Android App.sample" />
       <item itemvalue="Android App.app" />
+      <item itemvalue="Gradle.MaterialLeanBack [publish]" />
+      <item itemvalue="Gradle.MaterialLeanBack [publish --release]" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.MaterialLeanBack [publish]" />
+        <item itemvalue="Gradle.MaterialLeanBack [publish --release]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

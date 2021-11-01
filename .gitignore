@@ -25,3 +25,10 @@ proguard/
 
 # Log Files
 *.log
+
+#Android Studio
+.idea
+
+# Publish files on Github
+github.properties
+
