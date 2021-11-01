@@ -1,4 +1,4 @@
-package com.achref.leanbackrecycler
+package com.achref.leanbacklib
 
 import org.junit.Test
 

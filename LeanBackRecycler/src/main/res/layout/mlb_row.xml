@@ -16,7 +16,7 @@
         android:layout_marginRight="10dp"
         android:layout_marginBottom="20dp"
         android:text="Apps"
-        android:textColor="#333" />
+        android:textColor="@color/red" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/row_recyclerView"

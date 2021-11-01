@@ -4,8 +4,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.achref.leanbackrecycler.MaterialLeanBack;
-
+import com.achref.leanbacklib.MaterialLeanBack;
 
 public class TestViewHolder extends MaterialLeanBack.ViewHolder {
 

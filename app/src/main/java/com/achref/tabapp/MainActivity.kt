@@ -6,10 +6,10 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import androidx.recyclerview.widget.RecyclerView
-import com.achref.leanbackrecycler.MaterialLeanBack
 import com.achref.tabapp.databinding.ActivityMainBinding
 import com.squareup.picasso.Picasso
+import androidx.recyclerview.widget.RecyclerView
+import com.achref.leanbacklib.MaterialLeanBack
 
 
 class MainActivity : AppCompatActivity() {

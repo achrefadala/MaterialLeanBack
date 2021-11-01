@@ -1,4 +1,4 @@
-package com.achref.leanbackrecycler;
+package com.achref.leanbacklib;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -13,8 +13,8 @@ import androidx.core.content.ContextCompat;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.achref.leanbackrecycler.line.LineAdapter;
-import com.achref.leanbackrecycler.line.LineViewHolder;
+import com.achref.leanbacklib.line.LineAdapter;
+import com.achref.leanbacklib.line.LineViewHolder;
 import com.nineoldandroids.view.ViewHelper;
 
 public class MaterialLeanBack extends FrameLayout {
@@ -49,7 +49,7 @@ public class MaterialLeanBack extends FrameLayout {
 
         addView(LayoutInflater.from(getContext()).inflate(R.layout.mlb_layout, this, false));
 
-        imageBackground = (ImageView) findViewById(R.id.mlb_imageBackground);
+        imageBackground = findViewById(R.id.mlb_imageBackground);
         imageBackgroundOverlay = findViewById(R.id.mlb_imageBackgroundOverlay);
 
         if (settings.backgroundId != null)
@@ -60,7 +60,7 @@ public class MaterialLeanBack extends FrameLayout {
         if (settings.backgroundOverlayColor != null)
             imageBackgroundOverlay.setBackgroundColor(settings.backgroundOverlayColor);
 
-        recyclerView = (RecyclerView) findViewById(R.id.mlb_recyclerView);
+        recyclerView = findViewById(R.id.mlb_recyclerView);
         recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
     }
 

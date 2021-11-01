@@ -1,4 +1,4 @@
-package com.achref.leanbackrecycler;
+package com.achref.leanbacklib;
 
 import android.content.Context;
 import android.content.res.TypedArray;

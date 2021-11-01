@@ -1,13 +1,13 @@
-package com.achref.leanbackrecycler.cell;
+package com.achref.leanbacklib.cell;
 
 import android.view.View;
 
 import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.achref.leanbackrecycler.MaterialLeanBack;
-import com.achref.leanbackrecycler.MaterialLeanBackSettings;
-import com.achref.leanbackrecycler.R;
+import com.achref.leanbacklib.MaterialLeanBack;
+import com.achref.leanbacklib.MaterialLeanBackSettings;
+import com.achref.leanbacklib.R;
 import com.nineoldandroids.animation.Animator;
 import com.nineoldandroids.animation.AnimatorListenerAdapter;
 import com.nineoldandroids.animation.AnimatorSet;
@@ -37,7 +37,7 @@ public class CellViewHolder extends RecyclerView.ViewHolder {
         this.adapter = adapter;
         this.settings = settings;
 
-        cardView = (CardView) itemView.findViewById(R.id.cardView);
+        cardView = itemView.findViewById(R.id.cardView);
         this.viewHolder = adapter.onCreateViewHolder(cardView, row);
         this.viewHolder.row = row;
         cardView.addView(viewHolder.itemView);

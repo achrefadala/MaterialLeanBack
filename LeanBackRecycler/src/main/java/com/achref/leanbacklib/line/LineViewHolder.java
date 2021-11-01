@@ -1,4 +1,4 @@
-package com.achref.leanbackrecycler.line;
+package com.achref.leanbacklib.line;
 
 
 import android.view.View;
@@ -9,12 +9,13 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.achref.leanbackrecycler.MaterialLeanBack;
-import com.achref.leanbackrecycler.MaterialLeanBackSettings;
-import com.achref.leanbackrecycler.OnItemClickListenerWrapper;
-import com.achref.leanbackrecycler.R;
-import com.achref.leanbackrecycler.cell.CellAdapter;
-import com.achref.leanbackrecycler.cell.CellViewHolder;
+import com.achref.leanbacklib.MaterialLeanBack;
+import com.achref.leanbacklib.MaterialLeanBackSettings;
+import com.achref.leanbacklib.OnItemClickListenerWrapper;
+import com.achref.leanbacklib.R;
+import com.achref.leanbacklib.cell.CellAdapter;
+import com.achref.leanbacklib.cell.CellViewHolder;
+
 
 public class LineViewHolder extends RecyclerView.ViewHolder {
 
@@ -60,14 +61,11 @@ public class LineViewHolder extends RecyclerView.ViewHolder {
             else
                 title.setText(titleString);
 
-            title.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    if (onItemClickListenerWrapper != null) {
-                        final MaterialLeanBack.OnItemClickListener onItemClickListener = onItemClickListenerWrapper.getOnItemClickListener();
-                        if (onItemClickListener != null) {
-                            onItemClickListener.onTitleClicked(row, titleString);
-                        }
+            title.setOnClickListener(view -> {
+                if (onItemClickListenerWrapper != null) {
+                    final MaterialLeanBack.OnItemClickListener onItemClickListener = onItemClickListenerWrapper.getOnItemClickListener();
+                    if (onItemClickListener != null) {
+                        onItemClickListener.onTitleClicked(row, titleString);
                     }
                 }
             });
@@ -91,14 +89,11 @@ public class LineViewHolder extends RecyclerView.ViewHolder {
             }
         }
 
-        recyclerView.setAdapter(new CellAdapter(row, adapter, settings, onItemClickListenerWrapper, new CellAdapter.HeightCalculatedCallback() {
-            @Override
-            public void onHeightCalculated(int height) {
-                if (!wrapped) {
-                    recyclerView.getLayoutParams().height = height;
-                    recyclerView.requestLayout();
-                    wrapped = true;
-                }
+        recyclerView.setAdapter(new CellAdapter(row, adapter, settings, onItemClickListenerWrapper, height -> {
+            if (!wrapped) {
+                recyclerView.getLayoutParams().height = height;
+                recyclerView.requestLayout();
+                wrapped = true;
             }
         }));
         recyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {

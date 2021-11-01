@@ -1,4 +1,4 @@
-package com.achref.leanbackrecycler.line;
+package com.achref.leanbacklib.line;
 
 
 import android.view.LayoutInflater;
@@ -8,11 +8,12 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.achref.leanbackrecycler.MaterialLeanBack;
-import com.achref.leanbackrecycler.MaterialLeanBackSettings;
-import com.achref.leanbackrecycler.OnItemClickListenerWrapper;
-import com.achref.leanbackrecycler.PlaceHolderViewHolder;
-import com.achref.leanbackrecycler.R;
+import com.achref.leanbacklib.MaterialLeanBack;
+import com.achref.leanbacklib.MaterialLeanBackSettings;
+import com.achref.leanbacklib.OnItemClickListenerWrapper;
+import com.achref.leanbacklib.PlaceHolderViewHolder;
+import com.achref.leanbacklib.R;
+
 
 public class LineAdapter extends RecyclerView.Adapter {
 
