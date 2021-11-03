@@ -27,8 +27,10 @@ proguard/
 *.log
 
 #Android Studio
-.idea
+.idea/
 
 # Publish files on Github
-github.properties
+jitpack.yml
+
+
 
